@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Đăng ký</title>
+</head>
+<body>
+	<h1 style="color: red;font-family: fantasy;">ĐĂNG KÝ THÀNH VIÊN</h1>
+	<form action="google.com">
+	<table>
+		<tbody>
+			<tr>
+				<td colspan="2"><b>THÔNG TIN ĐĂNG NHẬP</b></td>
+			</tr>	
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="email" id="idEmail"></td>
+			</tr>	
+			<tr>
+				<td>Mật khẩu:</td>
+				<td><input type="password" name="password" id="idPassword"></td>
+			</tr>
+			<tr>
+				<td>Nhập lại mật khẩu:</td>
+				<td><input type="password" name="password" id="idRSPassword"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><strong>THÔNG TIN CÁ NHÂN</strong></td>
+			</tr>	
+			<tr>
+				<td>Họ và tên:</td>
+				<td><input type="text" name="hovaten" id="idHovaten"></td>
+			</tr>
+			<tr>
+				<td>Giới tính</td>
+				<td><input type="radio" name="gioitinh" id="idGioitinhM" value="M">
+				<label for="idGioitinhM">Nam</label>
+				<input type="radio" name="gioitinh" id="idGioitinhF" value="F">
+				<label for="idGioitinhF">Nữ</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Ngày:</td>
+				<td><input type="date" name="date" id="idDate"></td>
+			</tr>
+			<tr>
+				<td>Số điện thoại:</td>
+				<td><input type="tel" name="sodienthoai" id="idSodienthoai"></td>
+			</tr>
+			<tr>
+				<td>Số di động:</td>
+				<td><input type="tel" name="sodidong" id="idSodidong"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><strong>ĐỊA CHỈ</strong></td>
+			</tr>	
+			<tr>
+				<td>Quốc gia</td>
+				<td>
+					<select name="quocgia" id="idQuocgia">
+					<option value="VN">Việt nam</option> 
+					<option value="JaPan">Nhật bản</option> 
+					<option value="Doyin">Trung Quốc</option>
+					</select>
+				</td>
+				<tr>
+				<td>Tỉnh thành:</td>
+				<td>
+					<select name="tinhthanh" id="idTinhthanh">
+					<option value="HCM">Hồ chí minh</option> 
+					<option value="HaNoi">Hà nội</option> 
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Quận/Huyện:</td>
+				<td>
+					<select name="quanhuyen" id="idQuanhuyen">
+					<option value="LyNhan">Lý Nhân</option> 
+					<option value="ThanhXuan">Thanh Xuân</option> 
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Địa chỉ nhà:</td>
+				<td><textarea rows="5" name="diachi" id="idDiachi"></textarea></td>
+			</tr>
+			<tr>
+				<td>Sở thích: </td>
+				<td><input type="checkbox" name="sothich" id="idSothich">
+				<label for="idSothich">Đọc sách</label>
+				<input type="checkbox" name="sothich" id="idSothich">
+				<label for="idSothich">Chơi game</label></td>
+			</tr>
+			<tr>
+				<td>Hình ảnh</td>
+				<td><input type="file" name="hinhanh" id="idHinhanh"></td>
+			</tr>
+			<tr>
+				<td>Tuổi:</td>
+				<td><input type="number" name="tuoi" id="idTuoi" min="0"></td>
+			</tr>
+			<tr>
+			<td>
+					<input type="submit" name="đăng ký"/>
+				<input type="reset" name="reset"/>
+				</td>
+				</tr>
+		</tbody>
+	</table></form>
+</body>
+</html>
